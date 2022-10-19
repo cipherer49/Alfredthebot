@@ -1,0 +1,85 @@
+<html>
+<body>
+<style> 
+/* styling the header with color and padding -aryan */
+.header {
+overflow: hidden;
+background-color: #61cdff;
+padding: 20px 10px;
+}
+/* styling the heade links */
+.header a {
+float:left;
+color: white;
+text-align: center;
+padding: 12px;
+text-decoration:Italic;
+font-size: 18px;
+line-height: 25px;
+border-radius: 4px;
+}
+/* styling the logo link */
+.header a.logo {
+font-size: 25px;
+font-weight: bold;
+}
+
+/* change the background color on mouse-over*/
+.header a:hover {
+background-color:#e3faf8;
+font-weight: bold;
+color:black;
+}
+
+/*style the current link
+.header a.active {
+background-color: #c3faf5;
+color: black;
+}
+/* Float the link section to the right */
+.header-right {
+float: right;
+}
+
+/*for responsivenes */
+@media screen and (max-width:500px){
+.header a {
+float: none;
+display: block;
+text-align: left;
+}
+.header-right {
+float: none;
+}
+}
+/*website footer */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+</style>
+<div class="header">
+<a class="logo">Alfred</a>
+
+<div class="header-right">
+
+<a href="index.html">Home</a>
+<a  class="active" href="Team.html">Team</a>
+<a href="Bot.html">Bot</a>
+</div>
+</div>
+<h2><center>ALFRED The CHATBOT</center></h2>
+
+<script src="https://app.wotnot.io/chat-widget/4MEznowbxfoN080507511957H2Wx1Kq0.js" defer></script>
+
+<div class="footer">
+ <p>Contributions by:Aryan and Team.</p>
+<p>TE_Mini Project</p>
+</body>
+</html>
