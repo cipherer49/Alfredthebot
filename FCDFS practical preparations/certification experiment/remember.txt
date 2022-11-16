@@ -1,0 +1,2 @@
+open cmd as administrator
+pathfile should be in java bin which is in programmes file.
